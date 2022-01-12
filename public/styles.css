@@ -1,0 +1,71 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Section 1 */
+#section1 {
+    margin-left: 2em;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.blog_heading {
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1rem;
+}
+
+/* Section 2 */
+#section2 {
+    margin-left: 2em;
+}
+
+.card {
+    width: 50%;
+    font-family: "Poppins", sans-serif;
+    padding: 1rem 1.3rem;
+    margin-bottom: 2em;
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+.card_date {
+    font-size: 1.2rem;
+}
+
+.card-text{
+    font-size: 1.1rem;
+}
+
+.card-link {
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.card_content {
+    margin-bottom: 2em;
+}
+
+.card-body a, button {
+    font-size: 1rem;
+    padding: .4rem .8rem;
+    color: white;
+    border: none;
+}
+
+.card-body form {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.card-body a:hover {
+    color: white;
+}

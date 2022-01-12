@@ -1,0 +1,38 @@
+
+<div class="form-group">
+    <label for="title">Title</label>
+    <input required value="<%= article.title %>" type="text" name="title" id="title" class="form-control">
+</div>
+
+<div class="form-group">
+    <label for="description">Description</label>
+    <textarea name="description" id="description" class="form-control"><%= article.description %> </textarea>
+</div>
+
+<div class="form-group">
+    <label for="markdown">Markdown</label>
+    <textarea required name="markdown" id="markdown" class="form-control"><%= article.markdown %> </textarea>
+</div>
+
+<button type="submit" class="btn btn-success">Save</button>
+<a class="btn btn-danger" href="/">Cancel</a>
+
+<style>
+    .form-group {
+        margin-bottom: 2rem;
+    }
+    
+    a {
+        margin-right: 1rem;
+    }
+
+    .form-group label {
+        font-size: 1.5rem;
+        font-family: "Poppins", sans-serif;
+        padding-bottom: .3rem;
+    }
+
+    .form-control {
+        width: 60%;
+    }
+</style>
